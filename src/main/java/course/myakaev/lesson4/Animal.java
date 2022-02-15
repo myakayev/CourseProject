@@ -13,9 +13,4 @@ class Animal {
     void swim (int x){
         System.out.println(name + " проплыл " + x + " метров.");
     }
-    static int getAnimalCount(){
-        animalCount ++;
-        return animalCount;
-    }
-
 }
