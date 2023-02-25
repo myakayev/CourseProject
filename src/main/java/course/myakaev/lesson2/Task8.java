@@ -2,7 +2,7 @@ package course.myakaev.lesson2;
 
 public class Task8 {
     public static void main(String[] args) {
-        int x = 6;
+        int x = 5;
         int arr[][] = new int[x][x];
         changeArray(arr);
         printArray(arr);
