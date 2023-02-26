@@ -1,6 +1,6 @@
 package course.myakaev;
 import java.util.Scanner;
-public class Arrays {
+class Arrays123 {
         public static Scanner sc = new Scanner(System.in);
         public static void main(String[] args) {
             int d = getNumberFromScanner("Введите число в пределах от 5 до 10", 5, 10);
