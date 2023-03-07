@@ -30,10 +30,19 @@ public class HarekCity {
         String[] change = {results[2], results[3], results[4]};
         return change;
     }
+    public char[][] createKeyboard() {
+        return new char[][]{{'1','2','3'},{'4','5','6'},{'7','8','9'},{'*','0','#'}};
+    }
+    public void printKeyboard() {
+        for (int i = 0; i < new HarekCity().createKeyboard().length; i++) {
+            System.out.println(Arrays.toString(new HarekCity().createKeyboard()[i]));
+        }
+    }
 
     public static void main(String[] args) {
         String[] results = new String[]{"mix", "max", "pex", "fux", "rox"};
         String[] changedResults = new HarekCity().changeElectResultAgain(results);
-        System.out.println(Arrays.toString(changedResults));
+        //System.out.println(Arrays.toString(changedResults));
+        new HarekCity().printKeyboard();
     }
 }
